@@ -359,6 +359,10 @@ PRODUCT_COPY_FILES += \
 # Pre-opt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+   Music
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
