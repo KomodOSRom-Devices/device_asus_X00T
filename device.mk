@@ -338,7 +338,7 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-   Music
+    YMusic
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
