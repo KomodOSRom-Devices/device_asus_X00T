@@ -361,7 +361,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-   Music
+    YMusic
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
