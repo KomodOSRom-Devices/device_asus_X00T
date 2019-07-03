@@ -1182,8 +1182,8 @@ vendor/bin/netmgrd
 vendor/bin/qti
 vendor/bin/rmt_storage
 vendor/bin/tftp_server
-vendor/etc/data/dsi_config.xml|f4861831fcb21d43e2a9ca12519155ebb8ac1407
-vendor/etc/data/netmgr_config.xml|f17d2ec5e1da2e3b0266004c9e22dbbad8294c9a
+vendor/etc/data/dsi_config.xml
+vendor/etc/data/netmgr_config.xml
 vendor/etc/init/qcrild.rc
 vendor/lib/libmdmdetect.so
 vendor/lib64/libSubSystemShutdown.so
@@ -1266,6 +1266,9 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so
+
+# Radio (QTI telephony) - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
+framework/qti-telephony-common.jar|5362cf7dc277ff53ef33868b44027ca9a07e29f3
 
 # Sensors
 vendor/bin/sensors.qti
