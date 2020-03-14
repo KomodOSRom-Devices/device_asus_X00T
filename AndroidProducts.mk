@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_X00T.mk
+    $(LOCAL_DIR)/komodo_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_X00T-user \
-    aosip_X00T-userdebug \
-    aosip_X00T-eng
+    komodo_X00T-user \
+    komodo_X00T-userdebug \
+    komodo_X00T-eng
