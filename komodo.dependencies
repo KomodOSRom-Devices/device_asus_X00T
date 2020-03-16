@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "WEEDRR/Kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660",
+    "branch": "eas"
+  },
+  {
+    "remote": "github",
+    "repository": "WEEDRR/proprietary_vendor_asus",
+    "target_path": "vendor/asus",
+    "branch": "komodo"
+  }
+]
