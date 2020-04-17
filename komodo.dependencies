@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "WEEDRR/Kernel_asus_sdm660",
+    "repository": "WEEDRR/Kernel_asus_sdm660-1",
     "target_path": "kernel/asus/sdm660",
-    "branch": "eas"
+    "branch": "sdm-10"
   },
   {
     "remote": "github",
