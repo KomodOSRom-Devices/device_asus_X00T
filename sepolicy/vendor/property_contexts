@@ -22,3 +22,6 @@ sys.nvram.wifimac                  u:object_r:nvram_btwifi_prop:s0
 
 # wifi
 wifi.active.interface              u:object_r:wifi_prop:s0
+
+# PowerHAL
+vendor.powerhal.init                          u:object_r:power_prop:s0
