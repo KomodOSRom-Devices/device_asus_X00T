@@ -303,31 +303,3 @@ MultitouchSettleInterval=1ms \
 MultitouchMinDistance=1px \
 TapInterval=1ms \
 TapSlop=1px
-
-# Lau's magic props
-PRODUCT_PROPERTY_OVERRIDES += \
-debug.sf.hw=1 \
-debug.hwui.renderer=skiagl \
-debug.cpurend.vsync=false \
-vendor.display.enable_default_color_mode=0 \
-debug.composition.type=c2d  \
-debug.mdpcomp.idletime=600  \
-persist.hwc.ptor.enable=true \
-debug.egl.hw=1 \
-debug.sf.disable_hwc=0 \
-debug.sf.disable_backpressure=1  \
-debug.sf.gpu_comp_tiling=1  \
-debug.performance.tuning=1 \
-video.accelerate.hw=1
-
-# CAF props
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.qti.sys.fw.use_trim_settings=true \
-ro.vendor.qti.sys.fw.empty_app_percent=50 \
-ro.vendor.qti.sys.fw.trim_empty_percent=100 \
-ro.vendor.qti.sys.fw.trim_cache_percent=100 \
-ro.vendor.qti.sys.fw.trim_enable_memory=2147483648 \
-ro.cutoff_voltage_mv=3400 \
-ro.memperf.lib=libmemperf.so \
-ro.memperf.enable=false \
-persist.mm.sta.enable=0
