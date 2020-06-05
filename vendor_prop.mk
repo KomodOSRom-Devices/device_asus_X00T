@@ -251,55 +251,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.debuggable=1
 
-# Ram Tweaks
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.fha_enable=true \
-    ro.sys.fw.bg_apps_limit=32 \
-    ro.config.dha_cached_max=16 \
-    ro.config.dha_empty_max=42 \
-    ro.config.dha_empty_init=32 \
-    ro.config.dha_lmk_scale=0.545 \
-    ro.config.dha_th_rate=2.3 \
-    ro.config.sdha_apps_bg_max=64 \
-    ro.config.sdha_apps_bg_min=8
-
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    org.komodo.maintainer=zul
-
-# Fix screen glitches
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.hwui.texture_cache_size=72 \
-ro.hwui.layer_cache_size=48 \
-ro.hwui.r_buffer_cache_size=8 \
-ro.hwui.path_cache_size=32 \
-ro.hwui.gradient_cache_size=1 \
-ro.hwui.drop_shadow_cache_size=6 \
-ro.hwui.texture_cache_flushrate=0.4 \
-ro.hwui.text_small_cache_width=1024 \
-ro.hwui.text_small_cache_height=1024 \
-ro.hwui.text_large_cache_width=2048 \
-ro.cutoff_voltage_mv=3400 \
-ro.memperf.lib=libmemperf.so \
-ro.memperf.enable=false \
-persist.mm.sta.enable=0
-
-# Improve touch detection
-PRODUCT_PROPERTY_OVERRIDES += \
-touch.pressure.scale=0.001 \
-persist.sys.ui.hw=1 \
-view.scroll_friction=10 \
-touch.size.calibration=diameter \
-touch.size.scale=1 \
-touch.size.bias=0 \
-touch.size.isSummed=0 \
-touch.pressure.scale=0.001 \
-touch.orientation.calibration=none \
-touch.distance.calibration=none \
-touch.distance.scale=0 \
-touch.coverage.calibration=box \
-touch.gestureMode=spots \
-MultitouchSettleInterval=1ms \
-MultitouchMinDistance=1px \
-TapInterval=1ms \
-TapSlop=1px
+    org.komodo.maintainer=ZulF
