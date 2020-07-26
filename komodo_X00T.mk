@@ -25,8 +25,8 @@ $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Official tag
-KOMODO_OFFICIAL := true
+# komodo variant
+KOMODO_VARIANT = RELEASE
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
